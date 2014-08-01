@@ -1,0 +1,45 @@
+#logo {
+	top: 0;
+	width: 100%;
+	background: white;
+	height: 50px;
+	padding-top: 10px;
+	text-align: left;
+		img{
+			float: right;
+			padding-right: 10%;
+		}
+	overflow: hidden;
+}
+#premier-nav {
+	top: 0;
+	background:  #222438;
+	opacity: 0.7;
+	height: 35px;
+	left: 0;
+	width: 100%;
+	padding:  0;
+	margin: 0;
+	z-index: 2000;
+	
+	ul{
+		width: 960px;
+		margin: 0 auto;
+		height: 25px;
+		padding-top: 10px;
+		text-align: center;
+		li {
+			float: left;
+			height: 30px;
+			width: 50px;
+			padding-left: 0;
+			list-style-type: none;
+			text-align: center;
+			a {
+				color: white;
+				font-weight: bold;
+				text-decoration: none; 
+			}
+		}
+	}
+}

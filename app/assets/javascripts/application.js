@@ -12,12 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require bootstrap/bootstrap
 //= require ../../../vendor/assets/javascripts/greensock/TweenMax.min
 //= require ../../../vendor/assets/javascripts/jquery.lettering-0.6.1.min
 //= require ../../../vendor/assets/javascripts/jquery.superscrollorama
 //= require turbolinks
-//= require_tree .
+
 
 
 

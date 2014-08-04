@@ -6,7 +6,7 @@ $(document).ready(function() {
 			
 			
 				// set duration, in pixels scrolled, for pinned element
-				var pinDur = 10;
+				var pinDur = 5;
 				// create animation timeline for pinned element
 				var pinAnimations = new TimelineLite();
 				pinAnimations
@@ -52,32 +52,29 @@ controller.addTween('#fly-one img', TweenMax.fromTo( $('#fly-one img'), .5, {css
 
 controller.addTween('#examples-eng2-eight', TweenMax.to( $('#examples-eng2-eight'), .5, {css:{backgroundColor:'#df2223'}}));		
 controller.addTween('#fly-two img', TweenMax.fromTo( $('#fly-two img'), .5, {css:{left:'1000px', rotation:15}, ease:Quad.easeInOut}, {css:{left:'10%', rotation:-15}, ease:Quad.easeInOut}));
+// hire tweens
+$('#hire h3').lettering().find('span').css('position','relative').each(function() {
+controller.addTween('#hire h3', TweenMax.from( $(this), .25, {delay:Math.random()*.2,css:{left:Math.random()*1200-600,top:Math.random()*600-300,opacity:0}, ease:Expo.easeOut}),200);
+controller.addTween('#hire h3', TweenMax.to( $(this), .25, {css:{opacity:1}, ease:Expo.easeOut}),200);
 
-			
+	});
+controller.addTween('#hire p', TweenMax.fromTo( $('#hire p'), .5, {css:{opacity:0}}, {css:{opacity:1}}));
+	
 
-			
-			
-
-
-
-
-
-			// showcase tweens
-				controller.addTween('#showcase h1', TweenMax.from( $('#showcase h1'), .75, {css:{letterSpacing:20,opacity:0}, ease:Quad.easeOut}));
-				controller.addTween('#showcase p', TweenMax.from( $('#showcase p'), 1, {css:{opacity:0}, ease:Quad.easeOut}));
-				$('#showcase .gallery figure').css('position','relative').each(function() {
-					controller.addTween('#showcase .gallery', TweenMax.from( $(this), 1, {delay:Math.random()*.2,css:{left:Math.random()*200-100,top:Math.random()*200-100,opacity:0}, ease:Back.easeOut}));
+	// showcase tweens
+	controller.addTween('#showcase h3', TweenMax.fromTo( $('#showcase h3'), .75, {css:{letterSpacing:20,opacity:0}, ease:Quad.easeOut}, {css:{letterSpacing:1,opacity:1}, ease:Quad.easeOut}));
+	controller.addTween('#showcase p', TweenMax.fromTo( $('#showcase p'), 1, {css:{opacity:0}, ease:Quad.easeOut}, {css:{opacity:1}, ease:Quad.easeOut}));
+	$('#showcase .gallery figure').css('position','relative').each(function() {
+	controller.addTween('#showcase .gallery', TweenMax.from( $(this), 1, {delay:Math.random()*.2,css:{left:Math.random()*200-100,top:Math.random()*200-100,opacity:0}, ease:Back.easeOut}));
+	controller.addTween('#showcase .gallery', TweenMax.to( $(this), 1, {css:{opacity:1}, ease:Back.easeOut}));
+					
 				});
 
-				// hire tweens
-				$('#hire h3').lettering().find('span').css('position','relative').each(function() {
-					controller.addTween('#hire h3', TweenMax.from( $(this), .25, {delay:Math.random()*.2,css:{left:Math.random()*1200-600,top:Math.random()*600-300,opacity:0}, ease:Expo.easeOut}),200);
-				});
-				controller.addTween('#hire p', TweenMax.from( $('#hire p'), .5, {css:{opacity:0}}));
-			
 
+								
 
 		});
+
 
 
 

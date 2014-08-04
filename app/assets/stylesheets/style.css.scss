@@ -17,6 +17,7 @@
 	
 	
 */
+$my_icons: 'heydings_icons'; 
 
 
 body {
@@ -33,7 +34,12 @@ div {text-align: center;}
 	visibility: visible;
 }
 
-
+h6{font-family: $my_icons;
+	font-size: 2em;
+	color:white;
+	font-weight: normal;
+	margin: 0;
+}
 h1 {
 	font-size: 120px;
 	font-weight: normal;
@@ -81,7 +87,7 @@ p {	width: 80%; margin: 20px auto;  }
 a, a:visited { color: #D92B00; font-weight: bold; font-style: italic; }
 ul { list-style: none; }
 
-figcaption { text-shadow: 0 2px 1px #000; color: #C5C3DE; }
+
 
 .download { padding: 10px; }
 
@@ -149,7 +155,7 @@ blockquote {
 	line-height: 1.8;
 	z-index: 99999;
 }
-#hire { margin-bottom: 80px; }
+
 
 
 

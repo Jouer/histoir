@@ -9,7 +9,7 @@
  }			
 #premier-zero{ 
 			
- 			height: 800px;
+ 			min-height: 900px;
  			clear: both;
  	background: asset-url("shar.png");
 			    -moz-background-size: 100%; /* Firefox 3.6+ */
@@ -18,18 +18,27 @@
 			    background-size: 100%; /* Современные браузеры */
 			    background-repeat:no-repeat;
 				background-attachment:fixed; 
-					  #text-scroll{
+			  #text-scroll{
 					  	img{float: left;}
 					position: relative;
 					color: white;
 					padding: 30px;
-					background: rgba(34,36,56,0.5)}
+					background: rgba(34,36,56,0.5)
+				}
 					h2{
 					margin-left: 150px;
+				}	
 
-				}	  
 }	
-
+#slade-zero{
+				clear: both;
+				height: 900px;
+				background: asset-url("publ.png") no-repeat;
+ 			    -moz-background-size: 100%; /* Firefox 3.6+ */
+			    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+			    -o-background-size: 100%; /* Opera 9.6+ */
+			    background-size: 100%; /* Современные браузеры */
+}				  
 
 .eng{		
 	overflow: hidden;	
@@ -46,6 +55,7 @@
 		h2{color:  #0097d0;}
 		#pict-eng img {opacity: 1!important;}
 		#fly-it-one img{
+			width: 80%;
 		opacity: 0;
 		border: 1px solid white;
 		margin-left: 10%;
@@ -65,17 +75,17 @@
 
 
 	#zero-eng{ 		
- 				height: 600px;
+ 				height: 800px;
  				clear: both;
  				overflow: hidden;
- 				 #text-scroll{
+ 		#text-scroll {
 					text-align: center  !important;
 					color: white;
 					padding: 30px;
 					background: rgba(34,36,56,0.5);
 
 				}	
- 	background: asset-url("8.jpg");
+ 	background: asset-url("polo.png");
 			    -moz-background-size: 100%; /* Firefox 3.6+ */
 			    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
 			    -o-background-size: 100%; /* Opera 9.6+ */
@@ -91,7 +101,7 @@
  		h2{
  			color: #df2223;
  		}		
-		 background: asset-url("p1.png");
+		 background: asset-url("dorogi.png");
 			    -moz-background-size: 100%; /* Firefox 3.6+ */
 			    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
 			    -o-background-size: 100%; /* Opera 9.6+ */
@@ -102,25 +112,24 @@
 					color: white;
 					padding: 30px;
 					background: rgba(34,36,56,0.5);
-
 				}
-		#slade-one	{
-				clear: both;
-				height: 800px;
-				background: asset-url("4.jpg") no-repeat;
+		
+}	
+#slade-one	{
+				height: 900px;
+				background: asset-url("cm.png") no-repeat;
  			    -moz-background-size: 100%; /* Firefox 3.6+ */
 			    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
 			    -o-background-size: 100%; /* Opera 9.6+ */
 			    background-size: 100%; /* Современные браузеры */
-		}				   
-}	
 
+		}				   
 #examples-eng2-two{ 
 	position: relative;
 	h2{
 		color: #f3c000;
 	}
- 			 background: asset-url("bus.png");
+ 			 background: asset-url("velo.png");
 			    -moz-background-size: 100%; /* Firefox 3.6+ */
 			    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
 			    -o-background-size: 100%; /* Opera 9.6+ */
@@ -128,7 +137,6 @@
 			    background-repeat:no-repeat;
 				background-attachment:fixed;
 				#text-scroll{
-					
 					color: white;
 					padding: 30px;
 					background: rgba(34,36,56,0.5);
@@ -137,7 +145,7 @@
 		#slade-two	{
 				clear: both;
 				height: 800px;
-				background: asset-url("3.jpg") no-repeat;
+				background: asset-url("bus.png") no-repeat;
  			    -moz-background-size: 100%; /* Firefox 3.6+ */
 			    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
 			    -o-background-size: 100%; /* Opera 9.6+ */
@@ -152,43 +160,43 @@
 		h2{color:  #009752;}	
 	
 	#spin-it-one img{
+		width: 80%;
 		opacity: 0;
 		border: 1px solid white;
-		
 		margin-top: -20%;
 		margin-left: 30%;
 		position: relative;
 		z-index: 100;
 	}
 	#spin-it-two img{
+		width: 80%;
 		opacity: 0;
 		border: 1px solid white;
-	
-		margin-top: -40%;
+		margin-top: -60%;
 		margin-left: -50%;
 		position: relative;
 		z-index: 200;
 	}
-	#tree-eng{ 		
- 				height: 800px;
+	
+}
+#tree-eng{ 		
+ 				height: 600px;
  				clear: both;
  				overflow: hidden;
- 	background: asset-url("8.jpg");
+ 	background: asset-url("sport1.png");
 			    -moz-background-size: 100%; /* Firefox 3.6+ */
 			    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
 			    -o-background-size: 100%; /* Opera 9.6+ */
 			    background-size: 100%; /* Современные браузеры */
 			    background-repeat:no-repeat;
 				background-attachment:fixed; 	
-}	
-
-				   
-}
-
+}					   
 #examples-eng2-four{ 
 		color: #222438; 
 		background-color: white;
 		position: relative;
+		move-one img {width: 50%;}
+		move-two img {width: 50%;}
  		h2{color: #f3c000;}
  		#move-one img{
 		opacity: 0;
@@ -202,7 +210,7 @@
  				height: 600px;
  				clear: both;
  				overflow: hidden;
- 	background: asset-url("5.jpg");
+ 	background: asset-url("jil1.png");
 			    -moz-background-size: 100%; /* Firefox 3.6+ */
 			    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
 			    -o-background-size: 100%; /* Opera 9.6+ */
@@ -212,7 +220,7 @@
 }
 }
 #examples-eng2-five{ 
- 		background: asset-url("p1.png");
+ 		background: asset-url("unic.png");
 			    -moz-background-size: 100%; /* Firefox 3.6+ */
 			    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
 			    -o-background-size: 100%; /* Opera 9.6+ */
@@ -228,8 +236,8 @@
 
 #slade-five	{
 				clear: both;
-				height: 600px;
-				background: asset-url("3.jpg") no-repeat;
+				height: 900px;
+				background: asset-url("uni2.png") no-repeat;
  			    -moz-background-size: 100%; /* Firefox 3.6+ */
 			    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
 			    -o-background-size: 100%; /* Opera 9.6+ */
@@ -238,7 +246,7 @@
 }
 }	
 #examples-eng2-six{
-	background: asset-url("p2.png");
+	background: asset-url("decor1.png");
 			    -moz-background-size: 100%; /* Firefox 3.6+ */
 			    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
 			    -o-background-size: 100%; /* Opera 9.6+ */
@@ -255,7 +263,7 @@
 #slade-six	{
 				clear: both;
 				height: 800px;
-				background: asset-url("4.jpg") no-repeat;
+				background: asset-url("decor.png") no-repeat;
  			    -moz-background-size: 100%; /* Firefox 3.6+ */
 			    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
 			    -o-background-size: 100%; /* Opera 9.6+ */
@@ -276,7 +284,7 @@
 	#seven-eng{ height: 600px;
  				clear: both;
  				overflow: hidden;
- 	background: asset-url("7.jpg");
+ 	background: asset-url("der1.png");
 			    -moz-background-size: 100%; /* Firefox 3.6+ */
 			    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
 			    -o-background-size: 100%; /* Opera 9.6+ */
@@ -300,7 +308,7 @@
 	#fini{ 
  			height: 800px;
  			clear: both;
- 	background: asset-url("6.jpg");
+ 	background: asset-url("un1.png");
 			    -moz-background-size: 100%; /* Firefox 3.6+ */
 			    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
 			    -o-background-size: 100%; /* Opera 9.6+ */
@@ -324,15 +332,28 @@
 #fling-it, #move-it { position: relative; }
 
 
-#showcase { padding: 60px 0;}
-.gallery {margin: 0 auto; text-align: center; }
-.gallery figure { text-align: center; float: left; margin: 10px; height: 270px; display: inline-block; }
-figcaption { color: #C5C3DE; }
+#showcase { padding: 60px 0;
+.gallery {margin: 0 auto; text-align: center; 
+figure { text-align: left; margin: 10px; height:270px; display: block; }
+}
+figcaption { color: white; }
+#footer{background: asset-url("lu.png") no-repeat;}
+}
 #stat{
+	color: #222438;
 	text-align: left!important;
 	background-color: #009752;
 	#hire { padding:80px; }
-	h6	{border-bottom: 1px solid white;left: 0;text-align: right!important;}
+	li {text-align: left!important;
+		font-size: .5em;
+	}
+	#date-col{overflow: hidden;
+		h6	{float: right;right: 0;margin-bottom: 5px;}
+		h5{float: left;}
+		border-bottom: 1px solid white;
+		margin-bottom:10px;
+	}
+	
 }
 #examples-eng2-foot{
 	height: 100%;

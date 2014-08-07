@@ -27,10 +27,10 @@ $(document).ready(function() {
 controller.addTween('#examples-eng2-zero', TweenMax.to( $('#examples-eng2-zero'), .5, {css:{backgroundColor:'#df2223'}}));
 controller.addTween('#fly-it-two img', TweenMax.to( $('#fly-it-two img'), .5, {css:{rotation:15, marginTop:'-20%' , opacity: '1'}, ease:Quad.easeInOut}));
 
-controller.addTween('#fly-it-one img', TweenMax.fromTo( $('#fly-it-one img'), .5, {css:{left:'-1000px', rotation:-15, marginTop:'10%' , opacity: '1'}, ease:Quad.easeInOut}, {css:{left:'10%', rotation:15}, ease:Quad.easeInOut}));
+controller.addTween('#fly-it-one img', TweenMax.fromTo( $('#fly-it-one img'), .5, {css:{left:'-1000px', rotation:-15, marginTop:'10%' , opacity: '1'}, ease:Quad.easeInOut}, {css:{left:'5%', rotation:15}, ease:Quad.easeInOut}));
 
 
-controller.addTween('#fly-it-tree img', TweenMax.fromTo( $('#fly-it-tree img'), .5, {css:{left:'1000px', rotation:15, opacity: '1'}, ease:Quad.easeInOut}, {css:{left:'10%', rotation:-15}, ease:Quad.easeInOut}));
+controller.addTween('#fly-it-tree img', TweenMax.fromTo( $('#fly-it-tree img'), .5, {css:{right:'1000px',  opacity: '1'}, ease:Quad.easeInOut}, {css:{left:'5%', rotation:-15}, ease:Quad.easeInOut}));
 
 
 

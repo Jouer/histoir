@@ -25,21 +25,8 @@
 					padding: 30px;
 					background: rgba(34,36,56,0.5)
 				}
-					h2{
-					margin-left: 150px;
-				}	
-
+		
 }	
-#slade-zero{
-				clear: both;
-				height: 900px;
-				background: asset-url("publ.png") no-repeat;
- 			    -moz-background-size: 100%; /* Firefox 3.6+ */
-			    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-			    -o-background-size: 100%; /* Opera 9.6+ */
-			    background-size: 100%; /* Современные браузеры */
-}				  
-
 .eng{		
 	overflow: hidden;	
 	#text-scroll {
@@ -55,27 +42,20 @@
 		h2{color:  #0097d0;}
 		#pict-eng img {opacity: 1!important;}
 		#fly-it-one img{
-			width: 80%;
-		opacity: 0;
-		border: 1px solid white;
-		margin-left: 10%;
-		position: absolute;
-		z-index: 100;
+		padding: 10%;
 	}
 		#fly-it-tree img{
 			padding: 10%;
 			border: none;
 		}
 	 	section img{
-	 	
-	 		opacity: 0;
-			border: 1px solid white;			
+	 		opacity: 0;	
 	 	}
 	 	
 
 
 	#zero-eng{ 		
- 				height: 800px;
+ 				min-height: 900px;
  				clear: both;
  				overflow: hidden;
  		#text-scroll {
@@ -116,12 +96,14 @@
 		
 }	
 #slade-one	{
-				height: 900px;
+				min-height: 900px;
 				background: asset-url("cm.png") no-repeat;
  			    -moz-background-size: 100%; /* Firefox 3.6+ */
 			    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
 			    -o-background-size: 100%; /* Opera 9.6+ */
 			    background-size: 100%; /* Современные браузеры */
+			     background-repeat:no-repeat;
+				background-attachment:fixed; 	
 
 		}				   
 #examples-eng2-two{ 
@@ -150,6 +132,8 @@
 			    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
 			    -o-background-size: 100%; /* Opera 9.6+ */
 			    background-size: 100%; /* Современные браузеры */
+			     background-repeat:no-repeat;
+				background-attachment:fixed; 	
 		}		
 			   
 }	
@@ -162,34 +146,32 @@
 	#spin-it-one img{
 		width: 80%;
 		opacity: 0;
-		border: 1px solid white;
 		margin-top: -20%;
 		margin-left: 30%;
-		position: relative;
 		z-index: 100;
 	}
 	#spin-it-two img{
 		width: 80%;
 		opacity: 0;
-		border: 1px solid white;
 		margin-top: -60%;
 		margin-left: -50%;
-		position: relative;
 		z-index: 200;
 	}
 	
 }
-#tree-eng{ 		
- 				height: 600px;
+#slade-three{ 		
+ 				height: 900px;
  				clear: both;
  				overflow: hidden;
- 	background: asset-url("sport1.png");
+ 	background: asset-url("sport4.png");
 			    -moz-background-size: 100%; /* Firefox 3.6+ */
 			    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
 			    -o-background-size: 100%; /* Opera 9.6+ */
 			    background-size: 100%; /* Современные браузеры */
 			    background-repeat:no-repeat;
-				background-attachment:fixed; 	
+				background-attachment:fixed; 
+				 background-repeat:no-repeat;
+				background-attachment:fixed; 		
 }					   
 #examples-eng2-four{ 
 		color: #222438; 
@@ -200,14 +182,13 @@
  		h2{color: #f3c000;}
  		#move-one img{
 		opacity: 0;
-		border: 1px solid white;	
 		margin-top: 10%;
 		margin-left: 10%;
 		position: relative;
 		z-index: 100;
 	}	
 	#four-eng{ 		
- 				height: 600px;
+ 				height: 900px;
  				clear: both;
  				overflow: hidden;
  	background: asset-url("jil1.png");
@@ -242,6 +223,8 @@
 			    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
 			    -o-background-size: 100%; /* Opera 9.6+ */
 			    background-size: 100%; /* Современные браузеры */
+			     background-repeat:no-repeat;
+				background-attachment:fixed; 	
 		
 }
 }	
@@ -262,12 +245,14 @@
 				}
 #slade-six	{
 				clear: both;
-				height: 800px;
+				height: 900px;
 				background: asset-url("decor.png") no-repeat;
  			    -moz-background-size: 100%; /* Firefox 3.6+ */
 			    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
 			    -o-background-size: 100%; /* Opera 9.6+ */
 			    background-size: 100%; /* Современные браузеры */
+			     background-repeat:no-repeat;
+				background-attachment:fixed; 	
 		}				   	   
 }	
 #examples-eng2-seven{
@@ -281,10 +266,10 @@
 	 		opacity: 1;
 			
 	 	}
-	#seven-eng{ height: 600px;
+	#seven-eng{ height: 900px;
  				clear: both;
  				overflow: hidden;
- 	background: asset-url("der1.png");
+ 	background: asset-url("der3.png");
 			    -moz-background-size: 100%; /* Firefox 3.6+ */
 			    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
 			    -o-background-size: 100%; /* Opera 9.6+ */
@@ -306,7 +291,7 @@
 			
 	 	}	
 	#fini{ 
- 			height: 800px;
+ 			height: 900px;
  			clear: both;
  	background: asset-url("un1.png");
 			    -moz-background-size: 100%; /* Firefox 3.6+ */
@@ -332,13 +317,7 @@
 #fling-it, #move-it { position: relative; }
 
 
-#showcase { padding: 60px 0;
-.gallery {margin: 0 auto; text-align: center; 
-figure { text-align: left; margin: 10px; height:270px; display: block; }
-}
-figcaption { color: white; }
-#footer{background: asset-url("lu.png") no-repeat;}
-}
+
 #stat{
 	color: #222438;
 	text-align: left!important;
@@ -355,7 +334,17 @@ figcaption { color: white; }
 	}
 	
 }
+
 #examples-eng2-foot{
+#showcase {
+.gallery {margin: 0 auto; text-align: center;  padding: 60px 0;
+figure { text-align: left; margin: 10px; height:270px; display: block; }
+}
+figcaption { color: white; }
+#buttons{
+	background: asset-url("lu.png") no-repeat;
+}
+}
 	height: 100%;
 	background: asset-url("smi.png");
 			    -moz-background-size: 100%; /* Firefox 3.6+ */

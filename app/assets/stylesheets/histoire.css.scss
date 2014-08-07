@@ -78,7 +78,7 @@
 
 #examples-eng2-one{ 
 			position: relative;
- 		h2{
+ 		h2{margin-right: 40%;margin-left: -80px;padding-left: 0;padding-right: 0;
  			color: #df2223;
  		}		
 		 background: asset-url("dorogi.png");
@@ -108,9 +108,9 @@
 		}				   
 #examples-eng2-two{ 
 	position: relative;
-	h2{
-		color: #f3c000;
-	}
+	h2{margin-right: 40%;margin-left: -80px;padding-left: 0;padding-right: 0;
+ 			color: #df2223;
+ 		}
  			 background: asset-url("velo.png");
 			    -moz-background-size: 100%; /* Firefox 3.6+ */
 			    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
@@ -324,7 +324,7 @@
 	background-color: #009752;
 	#hire { padding:80px; }
 	li {text-align: left!important;
-		font-size: .5em;
+		font-size: .7em;
 	}
 	#date-col{overflow: hidden;
 		h6	{float: right;right: 0;margin-bottom: 5px;}

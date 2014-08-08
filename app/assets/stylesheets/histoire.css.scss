@@ -153,6 +153,7 @@
 	#spin-it-two img{
 		width: 80%;
 		opacity: 0;
+		padding: 1%;
 		margin-top: -60%;
 		margin-left: -50%;
 		z-index: 200;
@@ -289,7 +290,18 @@
 	 		position: relative;
 	 		opacity: 1;
 			
-	 	}	
+	 	}
+	#eight-eng 	{
+			height: 900px;
+ 			clear: both;
+ 			background: asset-url("tur1.png");
+			    -moz-background-size: 100%; /* Firefox 3.6+ */
+			    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+			    -o-background-size: 100%; /* Opera 9.6+ */
+			    background-size: 100%; /* Современные браузеры */
+			    background-repeat:no-repeat;
+				background-attachment:fixed; 
+	}	
 	#fini{ 
  			height: 900px;
  			clear: both;
@@ -320,6 +332,7 @@
 
 #stat{
 	color: #222438;
+	font-weight: bold;
 	text-align: left!important;
 	background-color: #009752;
 	#hire { padding:80px; }
@@ -337,12 +350,16 @@
 
 #examples-eng2-foot{
 #showcase {
-.gallery {margin: 0 auto; text-align: center;  padding: 60px 0;
+.gallery {margin: 0 auto; text-align: center;  padding: 80px 0;
 figure { text-align: left; margin: 10px; height:270px; display: block; }
 }
-figcaption { color: white; }
-#buttons{
+figcaption { color: white; font-weight: bold;}
+#buttons{ 
+	 height:300px;
 	background: asset-url("lu.png") no-repeat;
+	padding: 100px;
+	margin-bottom: 60px;
+
 }
 }
 	height: 100%;
